@@ -5,6 +5,7 @@ class ApplicationController < ActionController::Base
   end
 
   def goodbye
-    render html: "さよなら〜〜!"
+    randam_string = ('a'..'z').to_a.shuffle[0..7].join
+    render html: randam_string
   end
 end
