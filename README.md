@@ -2,7 +2,7 @@
 これは、次の教材で作られたサンプルアプリケーションです。
 [*Ruby on Rails チュートリアル*](https://railstutorial.jp/) (第 6 版)
 [Michael Hartl](https://www.michaelhartl.com/) 著
-## ライセンス
+## ライセンスはこっち
 [Ruby on Rails チュートリアル](https://railstutorial.jp/) 内にある ソースコードは MIT ライセンスと Beerware ライセンスのもとで公開されています。 詳細は [LICENSE.md](LICENSE.md) をご覧ください。
 ## 使い方 このアプリケーションを動かす場合は、まずはリポジトリを手元にクローンしてください。
 その後、次のコマンドで必要になる RubyGems をインストールします。 ```
