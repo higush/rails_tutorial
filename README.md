@@ -1,4 +1,4 @@
-## docker 起動test
+## docker 起動
 ```bash
 docker-compose up  
 ```
