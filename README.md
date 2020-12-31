@@ -1,23 +1,24 @@
-## docker 起動
-```bash
-docker-compose up  
-```
-## rails docker 構築参考URL
-https://qiita.com/y_shinoda/items/1d02d3c63e003e6c7ea2
+# README
 
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-## Webサーバログイン
-```bash
-docker exec -it rails_tutorial_docker_web_1 /bin/bash 
-```
+Things you may want to cover:
 
-## Postgresサーバログイン
-```bash
-docker exec -it rails_tutorial_docker_db_1 /bin/bash 
-```
+* Ruby version
 
-### Postgresログイン
-```bash
-$ su - postgres
-$ psql
-```
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
