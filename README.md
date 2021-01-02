@@ -16,6 +16,12 @@ $ bundle install --without production
 ```
 $ rails test
 ```
+
+自動でテストするならこう。rails sしてから起動する。
+```
+$ bundle exec guard  
+```
+
 テストが無事に通ったら、Rails サーバーを立ち上げる準備が整っているはずです。 ```
  $ rails server
 ```
