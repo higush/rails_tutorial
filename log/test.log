@@ -2775,3 +2775,1667 @@ Completed 200 OK in 1301ms (Views: 1294.9ms | ActiveRecord: 0.0ms | Allocations:
 Completed 200 OK in 1300ms (Views: 1294.0ms | ActiveRecord: 0.0ms | Allocations: 1521131)
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
   [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+-----------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:11:19 +0900
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-01-25 00:11:19 +0900
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-01-25 00:11:19 +0900
+Started GET "/static_pages/about" for 127.0.0.1 at 2021-01-25 00:11:19 +0900
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-01-25 00:11:19 +0900
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#contact as HTML
+Processing by StaticPagesController#about as HTML
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.3ms | Allocations: 216)
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 1.4ms | Allocations: 209)
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.7ms | Allocations: 216)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5031.2ms | Allocations: 3819755)
+  Rendered layouts/_rails_default.html.erb (Duration: 8.2ms | Allocations: 6508)
+  Rendered layouts/_rails_default.html.erb (Duration: 5038.0ms | Allocations: 3825596)
+  Rendered layouts/_rails_default.html.erb (Duration: 5038.1ms | Allocations: 3825588)
+  Rendered layouts/_shim.html.erb (Duration: 0.6ms | Allocations: 85)
+  Rendered layouts/_shim.html.erb (Duration: 0.5ms | Allocations: 92)
+  Rendered layouts/_shim.html.erb (Duration: 0.6ms | Allocations: 92)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 234)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 236)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 237)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5042.4ms | Allocations: 3819781)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 160)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 159)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 160)
+Completed 200 OK in 5053ms (Views: 5047.4ms | ActiveRecord: 0.0ms | Allocations: 3829478)
+Completed 200 OK in 5053ms (Views: 5047.4ms | ActiveRecord: 0.0ms | Allocations: 3829025)
+Completed 200 OK in 5052ms (Views: 5047.4ms | ActiveRecord: 0.0ms | Allocations: 3829024)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_rails_default.html.erb (Duration: 5043.8ms | Allocations: 3825595)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 237)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 159)
+Completed 200 OK in 5058ms (Views: 5052.5ms | ActiveRecord: 0.0ms | Allocations: 3829031)
+  Rendered layouts/_rails_default.html.erb (Duration: 7.0ms | Allocations: 6508)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 85)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 234)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 160)
+Completed 200 OK in 5062ms (Views: 5056.6ms | ActiveRecord: 0.0ms | Allocations: 3829504)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+StaticPagesControllerTest: test_should_get_help
+--------------------------------------------------
+-----------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+------------------------------------------------
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-01-25 00:11:36 +0900
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-01-25 00:11:36 +0900
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-01-25 00:11:36 +0900
+Started GET "/static_pages/about" for 127.0.0.1 at 2021-01-25 00:11:36 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:11:36 +0900
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#about as HTML
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 2.8ms | Allocations: 216)
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.9ms | Allocations: 209)
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 3.1ms | Allocations: 216)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1259.6ms | Allocations: 1511434)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1260.8ms | Allocations: 1511434)
+  Rendered layouts/_rails_default.html.erb (Duration: 1257.7ms | Allocations: 1517118)
+  Rendered layouts/_rails_default.html.erb (Duration: 1257.5ms | Allocations: 1517118)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 237)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 237)
+  Rendered layouts/_rails_default.html.erb (Duration: 1258.7ms | Allocations: 1517118)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 159)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 159)
+Completed 200 OK in 1279ms (Views: 1272.0ms | ActiveRecord: 0.0ms | Allocations: 1520553)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+Completed 200 OK in 1277ms (Views: 1271.8ms | ActiveRecord: 0.0ms | Allocations: 1520319)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 236)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 160)
+Completed 200 OK in 1281ms (Views: 1273.7ms | ActiveRecord: 0.0ms | Allocations: 1520553)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_rails_default.html.erb (Duration: 7.0ms | Allocations: 6482)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 85)
+  Rendered layouts/_rails_default.html.erb (Duration: 7.0ms | Allocations: 6482)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 234)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 85)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 160)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 234)
+Completed 200 OK in 1284ms (Views: 1276.9ms | ActiveRecord: 0.0ms | Allocations: 1521130)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 160)
+Completed 200 OK in 1285ms (Views: 1277.4ms | ActiveRecord: 0.0ms | Allocations: 1521130)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+--------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:16:50 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1168.1ms | Allocations: 1511434)
+  Rendered layouts/_rails_default.html.erb (Duration: 15.0ms | Allocations: 6482)
+  Rendered layouts/_shim.html.erb (Duration: 0.7ms | Allocations: 85)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 234)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 160)
+Completed 200 OK in 1201ms (Views: 1193.2ms | ActiveRecord: 0.0ms | Allocations: 1521131)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:18:13 +0900
+Started GET "/about" for 127.0.0.1 at 2021-01-25 00:18:13 +0900
+Started GET "/help" for 127.0.0.1 at 2021-01-25 00:18:13 +0900
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:18:13 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:18:13 +0900
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#about as HTML
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.5ms | Allocations: 216)
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 1.0ms | Allocations: 209)
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.8ms | Allocations: 216)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1260.9ms | Allocations: 1511434)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1262.3ms | Allocations: 1511434)
+  Rendered layouts/_rails_default.html.erb (Duration: 1264.5ms | Allocations: 1517118)
+  Rendered layouts/_rails_default.html.erb (Duration: 1264.4ms | Allocations: 1517118)
+  Rendered layouts/_shim.html.erb (Duration: 0.4ms | Allocations: 92)
+  Rendered layouts/_shim.html.erb (Duration: 0.6ms | Allocations: 92)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 236)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 237)
+  Rendered layouts/_rails_default.html.erb (Duration: 1266.9ms | Allocations: 1517118)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 159)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 160)
+Completed 200 OK in 1279ms (Views: 1273.2ms | ActiveRecord: 0.0ms | Allocations: 1520554)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+Completed 200 OK in 1279ms (Views: 1273.3ms | ActiveRecord: 0.0ms | Allocations: 1520554)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 237)
+  Rendered layouts/_rails_default.html.erb (Duration: 8.3ms | Allocations: 6482)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 159)
+  Rendered layouts/_shim.html.erb (Duration: 0.5ms | Allocations: 85)
+  Rendered layouts/_rails_default.html.erb (Duration: 8.2ms | Allocations: 6482)
+Completed 200 OK in 1280ms (Views: 1274.3ms | ActiveRecord: 0.0ms | Allocations: 1520547)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 85)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 234)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 234)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 160)
+Completed 200 OK in 1283ms (Views: 1277.2ms | ActiveRecord: 0.0ms | Allocations: 1521131)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 160)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 1283ms (Views: 1277.1ms | ActiveRecord: 0.0ms | Allocations: 1521131)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+------------------------------------------------
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:19:35 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:19:35 +0900
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:19:35 +0900
+Started GET "/help" for 127.0.0.1 at 2021-01-25 00:19:35 +0900
+Started GET "/about" for 127.0.0.1 at 2021-01-25 00:19:35 +0900
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#contact as HTML
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 1.6ms | Allocations: 209)
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.1ms | Allocations: 216)
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.0ms | Allocations: 216)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1364.3ms | Allocations: 1511437)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1365.0ms | Allocations: 1511437)
+  Rendered layouts/_rails_default.html.erb (Duration: 1359.0ms | Allocations: 1517122)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_rails_default.html.erb (Duration: 1363.4ms | Allocations: 1517122)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 237)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_rails_default.html.erb (Duration: 1363.6ms | Allocations: 1517122)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 159)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 236)
+Completed 200 OK in 1373ms (Views: 1366.6ms | ActiveRecord: 0.0ms | Allocations: 1520558)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 160)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 237)
+Completed 200 OK in 1378ms (Views: 1371.9ms | ActiveRecord: 0.0ms | Allocations: 1520558)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 159)
+Completed 200 OK in 1379ms (Views: 1373.3ms | ActiveRecord: 0.0ms | Allocations: 1520551)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_rails_default.html.erb (Duration: 9.2ms | Allocations: 6483)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 85)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 234)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 160)
+Completed 200 OK in 1387ms (Views: 1381.5ms | ActiveRecord: 0.0ms | Allocations: 1521135)
+  Rendered layouts/_rails_default.html.erb (Duration: 12.1ms | Allocations: 6483)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 85)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 234)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 160)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 1391ms (Views: 1384.9ms | ActiveRecord: 0.0ms | Allocations: 1521135)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:19:43 +0900
+Started GET "/about" for 127.0.0.1 at 2021-01-25 00:19:43 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:19:43 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:19:43 +0900
+Processing by StaticPagesController#contact as HTML
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.9ms | Allocations: 209)
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.1ms | Allocations: 216)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1178.6ms | Allocations: 1511434)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1179.2ms | Allocations: 1511434)
+  Rendered layouts/_rails_default.html.erb (Duration: 1179.9ms | Allocations: 1517118)
+  Rendered layouts/_rails_default.html.erb (Duration: 1180.9ms | Allocations: 1517118)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 237)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 237)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 159)
+Completed 200 OK in 1194ms (Views: 1187.1ms | ActiveRecord: 0.0ms | Allocations: 1520554)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 159)
+Completed 200 OK in 1196ms (Views: 1188.6ms | ActiveRecord: 0.0ms | Allocations: 1520547)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_rails_default.html.erb (Duration: 8.9ms | Allocations: 6482)
+  Rendered layouts/_rails_default.html.erb (Duration: 9.0ms | Allocations: 6482)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 85)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 85)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 234)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 234)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 160)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 160)
+Completed 200 OK in 1203ms (Views: 1195.5ms | ActiveRecord: 0.0ms | Allocations: 1521131)
+Completed 200 OK in 1203ms (Views: 1195.0ms | ActiveRecord: 0.0ms | Allocations: 1521131)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+-----------------------------------------------
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2021-01-25 00:21:18 +0900
+Started GET "/help" for 127.0.0.1 at 2021-01-25 00:21:18 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:21:18 +0900
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:21:18 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:21:18 +0900
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#contact as HTML
+Processing by StaticPagesController#about as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 1.0ms | Allocations: 209)
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.9ms | Allocations: 216)
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.0ms | Allocations: 216)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1428.0ms | Allocations: 1511434)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1429.2ms | Allocations: 1511434)
+  Rendered layouts/_rails_default.html.erb (Duration: 1429.9ms | Allocations: 1517118)
+  Rendered layouts/_rails_default.html.erb (Duration: 1430.6ms | Allocations: 1517118)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_rails_default.html.erb (Duration: 1431.6ms | Allocations: 1517118)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 237)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 238)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 160)
+Completed 200 OK in 1447ms (Views: 1440.5ms | ActiveRecord: 0.0ms | Allocations: 1520555)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 159)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 238)
+Completed 200 OK in 1448ms (Views: 1441.3ms | ActiveRecord: 0.0ms | Allocations: 1520555)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 159)
+Completed 200 OK in 1448ms (Views: 1441.9ms | ActiveRecord: 0.0ms | Allocations: 1520548)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_rails_default.html.erb (Duration: 9.9ms | Allocations: 6482)
+  Rendered layouts/_rails_default.html.erb (Duration: 10.0ms | Allocations: 6482)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 85)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 85)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 235)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 235)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 160)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 160)
+Completed 200 OK in 1454ms (Views: 1447.2ms | ActiveRecord: 0.0ms | Allocations: 1521132)
+Completed 200 OK in 1454ms (Views: 1447.9ms | ActiveRecord: 0.0ms | Allocations: 1521132)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:32:04 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1233.3ms | Allocations: 1511462)
+  Rendered layouts/_rails_default.html.erb (Duration: 14.6ms | Allocations: 6483)
+  Rendered layouts/_shim.html.erb (Duration: 0.6ms | Allocations: 85)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 269)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 177)
+Completed 200 OK in 1266ms (Views: 1258.5ms | ActiveRecord: 0.0ms | Allocations: 1521334)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:32:51 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1009.2ms | Allocations: 1511462)
+  Rendered layouts/_rails_default.html.erb (Duration: 6.2ms | Allocations: 6483)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 85)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 269)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 177)
+Completed 200 OK in 1037ms (Views: 1031.0ms | ActiveRecord: 0.0ms | Allocations: 1521334)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:34:08 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1157.2ms | Allocations: 1511462)
+  Rendered layouts/_rails_default.html.erb (Duration: 6.4ms | Allocations: 6483)
+  Rendered layouts/_shim.html.erb (Duration: 0.4ms | Allocations: 85)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 273)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 177)
+Completed 200 OK in 1188ms (Views: 1181.3ms | ActiveRecord: 0.0ms | Allocations: 1521338)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:34:34 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 989.8ms | Allocations: 1511462)
+  Rendered layouts/_rails_default.html.erb (Duration: 7.7ms | Allocations: 6483)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 85)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 273)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 176)
+Completed 200 OK in 1021ms (Views: 1015.0ms | ActiveRecord: 0.0ms | Allocations: 1521337)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+ApplicationHelperTest: test_full_title_helper
+---------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+-----------------------------------------------
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2021-01-25 00:39:49 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:39:49 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:39:49 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:39:49 +0900
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:39:49 +0900
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#contact as HTML
+Processing by StaticPagesController#about as HTML
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+Started GET "/help" for 127.0.0.1 at 2021-01-25 00:39:49 +0900
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 1.1ms | Allocations: 206)
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.8ms | Allocations: 214)
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.7ms | Allocations: 213)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1596.7ms | Allocations: 1511431)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1597.7ms | Allocations: 1511431)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1599.7ms | Allocations: 1511431)
+  Rendered layouts/_rails_default.html.erb (Duration: 1568.8ms | Allocations: 1517124)
+  Rendered layouts/_rails_default.html.erb (Duration: 1599.6ms | Allocations: 1517118)
+  Rendered layouts/_rails_default.html.erb (Duration: 1600.0ms | Allocations: 1517118)
+  Rendered layouts/_shim.html.erb (Duration: 0.5ms | Allocations: 92)
+  Rendered layouts/_shim.html.erb (Duration: 0.6ms | Allocations: 92)
+  Rendered layouts/_shim.html.erb (Duration: 0.5ms | Allocations: 92)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 275)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 275)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 275)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 176)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 175)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 176)
+Completed 200 OK in 1587ms (Views: 1579.1ms | ActiveRecord: 0.0ms | Allocations: 1520492)
+Completed 200 OK in 1618ms (Views: 1610.1ms | ActiveRecord: 0.0ms | Allocations: 1520606)
+Completed 200 OK in 1618ms (Views: 1610.2ms | ActiveRecord: 0.0ms | Allocations: 1520599)
+  Rendered layouts/_rails_default.html.erb (Duration: 10.3ms | Allocations: 6482)
+  Rendered layouts/_rails_default.html.erb (Duration: 10.5ms | Allocations: 6482)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 85)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 85)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 272)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 272)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 176)
+  Rendered layouts/_rails_default.html.erb (Duration: 9.7ms | Allocations: 6482)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 176)
+Completed 200 OK in 1621ms (Views: 1614.3ms | ActiveRecord: 0.0ms | Allocations: 1521182)
+Completed 200 OK in 1624ms (Views: 1615.6ms | ActiveRecord: 0.0ms | Allocations: 1521182)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 85)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 272)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 176)
+Completed 200 OK in 1624ms (Views: 1616.7ms | ActiveRecord: 0.0ms | Allocations: 1521182)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:39:50 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.3ms | Allocations: 94)
+  Rendered layouts/_rails_default.html.erb (Duration: 14.7ms | Allocations: 6433)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 97)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 7342)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+ApplicationHelperTest: test_full_title_helper
+---------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+--------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2021-01-25 00:39:59 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:39:59 +0900
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:39:59 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:39:59 +0900
+Started GET "/help" for 127.0.0.1 at 2021-01-25 00:39:59 +0900
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#about as HTML
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:39:59 +0900
+Processing by StaticPagesController#contact as HTML
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.0ms | Allocations: 214)
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 1.0ms | Allocations: 206)
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.9ms | Allocations: 213)
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1318.0ms | Allocations: 1511431)
+  Rendered layouts/_rails_default.html.erb (Duration: 1320.4ms | Allocations: 1517118)
+  Rendered layouts/_shim.html.erb (Duration: 0.6ms | Allocations: 92)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 275)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 176)
+Completed 200 OK in 1336ms (Views: 1329.8ms | ActiveRecord: 0.0ms | Allocations: 1520607)
+  Rendered layouts/_rails_default.html.erb (Duration: 1325.3ms | Allocations: 1517118)
+  Rendered layouts/_shim.html.erb (Duration: 0.4ms | Allocations: 92)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1328.3ms | Allocations: 1511431)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 275)
+  Rendered layouts/_rails_default.html.erb (Duration: 11.4ms | Allocations: 6482)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 175)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 1341ms (Views: 1334.3ms | ActiveRecord: 0.0ms | Allocations: 1520607)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 85)
+  Rendered layouts/_rails_default.html.erb (Duration: 1329.9ms | Allocations: 1517118)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 272)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1316.2ms | Allocations: 1511437)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 176)
+Completed 200 OK in 1344ms (Views: 1337.6ms | ActiveRecord: 0.0ms | Allocations: 1521183)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 275)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 176)
+Completed 200 OK in 1345ms (Views: 1338.1ms | ActiveRecord: 0.0ms | Allocations: 1520600)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:40:01 +0900
+  Rendered layouts/_rails_default.html.erb (Duration: 12.3ms | Allocations: 6482)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 85)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 272)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 176)
+Completed 200 OK in 1355ms (Views: 1348.4ms | ActiveRecord: 0.0ms | Allocations: 1521183)
+  Rendered layouts/_rails_default.html.erb (Duration: 13.0ms | Allocations: 6482)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 85)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 272)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 176)
+Completed 200 OK in 1344ms (Views: 1336.0ms | ActiveRecord: 0.0ms | Allocations: 1521069)
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.5ms | Allocations: 94)
+  Rendered layouts/_rails_default.html.erb (Duration: 12.2ms | Allocations: 6433)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 12)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 97)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 54)
+Completed 200 OK in 20ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 7342)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+ApplicationHelperTest: test_full_title_helper
+---------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+SiteLayoutTest: test_layout_links
+StaticPagesControllerTest: test_should_get_about
+---------------------------------
+------------------------------------------------
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2021-01-25 00:40:17 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:40:17 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:40:17 +0900
+Started GET "/help" for 127.0.0.1 at 2021-01-25 00:40:17 +0900
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:40:17 +0900
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#about as HTML
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#contact as HTML
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:40:17 +0900
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.0ms | Allocations: 214)
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.1ms | Allocations: 214)
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 1.0ms | Allocations: 206)
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1590.6ms | Allocations: 1511431)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1577.3ms | Allocations: 1511437)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1599.0ms | Allocations: 1511431)
+  Rendered layouts/_rails_default.html.erb (Duration: 1596.2ms | Allocations: 1517118)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_rails_default.html.erb (Duration: 1596.9ms | Allocations: 1517118)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 275)
+  Rendered layouts/_rails_default.html.erb (Duration: 1598.5ms | Allocations: 1517118)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 276)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 176)
+Completed 200 OK in 1613ms (Views: 1605.6ms | ActiveRecord: 0.0ms | Allocations: 1520607)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 176)
+Completed 200 OK in 1614ms (Views: 1606.8ms | ActiveRecord: 0.0ms | Allocations: 1520600)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 276)
+  Rendered layouts/_rails_default.html.erb (Duration: 11.6ms | Allocations: 6482)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 85)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 175)
+Completed 200 OK in 1616ms (Views: 1608.3ms | ActiveRecord: 0.0ms | Allocations: 1520607)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 273)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 176)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 1618ms (Views: 1610.1ms | ActiveRecord: 0.0ms | Allocations: 1521183)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_rails_default.html.erb (Duration: 9.2ms | Allocations: 6482)
+  Rendered layouts/_shim.html.erb (Duration: 0.4ms | Allocations: 85)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_rails_default.html.erb (Duration: 10.8ms | Allocations: 6482)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 273)
+  Rendered layouts/_shim.html.erb (Duration: 0.4ms | Allocations: 85)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 176)
+Completed 200 OK in 1605ms (Views: 1596.7ms | ActiveRecord: 0.0ms | Allocations: 1521069)
+  Rendered layouts/_header.html.erb (Duration: 1.7ms | Allocations: 273)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 176)
+Completed 200 OK in 1628ms (Views: 1620.6ms | ActiveRecord: 0.0ms | Allocations: 1521183)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:40:18 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 1.0ms | Allocations: 94)
+  Rendered layouts/_rails_default.html.erb (Duration: 13.2ms | Allocations: 6433)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 97)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 7342)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+ApplicationHelperTest: test_full_title_helper
+---------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:40:23 +0900
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:40:23 +0900
+Started GET "/help" for 127.0.0.1 at 2021-01-25 00:40:23 +0900
+Started GET "/about" for 127.0.0.1 at 2021-01-25 00:40:23 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:40:23 +0900
+Processing by StaticPagesController#contact as HTML
+Processing by StaticPagesController#help as HTML
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:40:23 +0900
+Processing by StaticPagesController#about as HTML
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.1ms | Allocations: 214)
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 1.4ms | Allocations: 206)
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.1ms | Allocations: 214)
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1399.3ms | Allocations: 1511431)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1400.8ms | Allocations: 1511431)
+  Rendered layouts/_rails_default.html.erb (Duration: 1398.2ms | Allocations: 1517118)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_rails_default.html.erb (Duration: 1400.4ms | Allocations: 1517118)
+  Rendered layouts/_rails_default.html.erb (Duration: 1400.8ms | Allocations: 1517118)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 275)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1387.7ms | Allocations: 1511437)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 176)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 276)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 276)
+Completed 200 OK in 1415ms (Views: 1408.2ms | ActiveRecord: 0.0ms | Allocations: 1520607)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 176)
+Completed 200 OK in 1416ms (Views: 1410.0ms | ActiveRecord: 0.0ms | Allocations: 1520600)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 175)
+Completed 200 OK in 1416ms (Views: 1409.9ms | ActiveRecord: 0.0ms | Allocations: 1520607)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_rails_default.html.erb (Duration: 10.0ms | Allocations: 6482)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 85)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 273)
+  Rendered layouts/_rails_default.html.erb (Duration: 10.6ms | Allocations: 6482)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 176)
+Completed 200 OK in 1423ms (Views: 1416.7ms | ActiveRecord: 0.0ms | Allocations: 1521183)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 85)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 273)
+  Rendered layouts/_rails_default.html.erb (Duration: 9.9ms | Allocations: 6482)
+  Rendered layouts/_shim.html.erb (Duration: 0.4ms | Allocations: 85)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 176)
+Completed 200 OK in 1427ms (Views: 1420.5ms | ActiveRecord: 0.0ms | Allocations: 1521183)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 273)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 176)
+Completed 200 OK in 1413ms (Views: 1406.5ms | ActiveRecord: 0.0ms | Allocations: 1521069)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:40:25 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.4ms | Allocations: 94)
+  Rendered layouts/_rails_default.html.erb (Duration: 13.2ms | Allocations: 6433)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 97)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 7342)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:41:03 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:41:03 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:41:03 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:41:03 +0900
+Started GET "/help" for 127.0.0.1 at 2021-01-25 00:41:03 +0900
+Started GET "/about" for 127.0.0.1 at 2021-01-25 00:41:03 +0900
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#contact as HTML
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.1ms | Allocations: 214)
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.1ms | Allocations: 214)
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 1.3ms | Allocations: 206)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1244.7ms | Allocations: 1511431)
+  Rendered layouts/_rails_default.html.erb (Duration: 1244.1ms | Allocations: 1517118)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 275)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 176)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1248.4ms | Allocations: 1511431)
+Completed 200 OK in 1259ms (Views: 1252.1ms | ActiveRecord: 0.0ms | Allocations: 1520607)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1249.4ms | Allocations: 1511431)
+  Rendered layouts/_rails_default.html.erb (Duration: 1247.8ms | Allocations: 1517118)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 276)
+  Rendered layouts/_rails_default.html.erb (Duration: 1249.6ms | Allocations: 1517118)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 175)
+Completed 200 OK in 1262ms (Views: 1255.7ms | ActiveRecord: 0.0ms | Allocations: 1520607)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 276)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+ApplicationHelperTest: test_full_title_helper
+---------------------------------------------
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 176)
+Completed 200 OK in 1264ms (Views: 1257.7ms | ActiveRecord: 0.0ms | Allocations: 1520600)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_rails_default.html.erb (Duration: 9.8ms | Allocations: 6482)
+  Rendered layouts/_shim.html.erb (Duration: 0.4ms | Allocations: 85)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 273)
+  Rendered layouts/_rails_default.html.erb (Duration: 9.7ms | Allocations: 6482)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 176)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 85)
+Completed 200 OK in 1270ms (Views: 1263.2ms | ActiveRecord: 0.0ms | Allocations: 1521183)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 273)
+  Rendered layouts/_rails_default.html.erb (Duration: 11.0ms | Allocations: 6482)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 176)
+Completed 200 OK in 1272ms (Views: 1265.3ms | ActiveRecord: 0.0ms | Allocations: 1521183)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 85)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 273)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 176)
+Completed 200 OK in 1274ms (Views: 1267.2ms | ActiveRecord: 0.0ms | Allocations: 1521183)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:41:04 +0900
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.4ms | Allocations: 94)
+  Rendered layouts/_rails_default.html.erb (Duration: 10.3ms | Allocations: 6433)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 97)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 7342)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+-----------------------------------------------
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:41:18 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:41:18 +0900
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:41:18 +0900
+Started GET "/about" for 127.0.0.1 at 2021-01-25 00:41:18 +0900
+Started GET "/help" for 127.0.0.1 at 2021-01-25 00:41:18 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:41:18 +0900
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#contact as HTML
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#about as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 1.1ms | Allocations: 206)
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.0ms | Allocations: 214)
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.0ms | Allocations: 214)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1300.3ms | Allocations: 1511431)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1300.9ms | Allocations: 1511431)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1300.8ms | Allocations: 1511431)
+  Rendered layouts/_rails_default.html.erb (Duration: 1302.6ms | Allocations: 1517118)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 275)
+  Rendered layouts/_rails_default.html.erb (Duration: 1306.1ms | Allocations: 1517118)
+  Rendered layouts/_rails_default.html.erb (Duration: 1306.2ms | Allocations: 1517118)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 176)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+Completed 200 OK in 1318ms (Views: 1312.0ms | ActiveRecord: 0.0ms | Allocations: 1520607)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 276)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 276)
+  Rendered layouts/_rails_default.html.erb (Duration: 9.2ms | Allocations: 6482)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 176)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 175)
+Completed 200 OK in 1320ms (Views: 1314.1ms | ActiveRecord: 0.0ms | Allocations: 1520600)
+Completed 200 OK in 1320ms (Views: 1314.0ms | ActiveRecord: 0.0ms | Allocations: 1520607)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 85)
+  Rendered layouts/_rails_default.html.erb (Duration: 9.4ms | Allocations: 6482)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 273)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 85)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 176)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 1322ms (Views: 1316.0ms | ActiveRecord: 0.0ms | Allocations: 1521183)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 273)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 176)
+Completed 200 OK in 1324ms (Views: 1317.3ms | ActiveRecord: 0.0ms | Allocations: 1521183)
+  Rendered layouts/_rails_default.html.erb (Duration: 12.9ms | Allocations: 6482)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 85)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+ApplicationHelperTest: test_full_title_helper
+---------------------------------------------
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 273)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 176)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 1327ms (Views: 1320.7ms | ActiveRecord: 0.0ms | Allocations: 1521183)
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:41:19 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.4ms | Allocations: 94)
+  Rendered layouts/_rails_default.html.erb (Duration: 9.0ms | Allocations: 6433)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 97)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 7342)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+ApplicationHelperTest: test_full_title_helper
+---------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2021-01-25 00:43:35 +0900
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:43:35 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:43:35 +0900
+Started GET "/help" for 127.0.0.1 at 2021-01-25 00:43:35 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:43:35 +0900
+Started GET "/" for 127.0.0.1 at 2021-01-25 00:43:35 +0900
+Processing by StaticPagesController#about as HTML
+Processing by StaticPagesController#contact as HTML
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.1ms | Allocations: 214)
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 1.0ms | Allocations: 206)
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.0ms | Allocations: 213)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1423.1ms | Allocations: 1511431)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1424.3ms | Allocations: 1511431)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1425.6ms | Allocations: 1511431)
+  Rendered layouts/_rails_default.html.erb (Duration: 1427.6ms | Allocations: 1517118)
+  Rendered layouts/_rails_default.html.erb (Duration: 1428.9ms | Allocations: 1517118)
+  Rendered layouts/_rails_default.html.erb (Duration: 1427.8ms | Allocations: 1517118)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered layouts/_shim.html.erb (Duration: 0.6ms | Allocations: 92)
+  Rendered layouts/_shim.html.erb (Duration: 0.4ms | Allocations: 92)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 275)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 275)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 275)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 176)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 176)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 175)
+Completed 200 OK in 1443ms (Views: 1436.5ms | ActiveRecord: 0.0ms | Allocations: 1520600)
+Completed 200 OK in 1445ms (Views: 1438.0ms | ActiveRecord: 0.0ms | Allocations: 1520607)
+Completed 200 OK in 1443ms (Views: 1436.5ms | ActiveRecord: 0.0ms | Allocations: 1520607)
+  Rendered layouts/_rails_default.html.erb (Duration: 10.5ms | Allocations: 6482)
+  Rendered layouts/_rails_default.html.erb (Duration: 10.7ms | Allocations: 6482)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendered layouts/_rails_default.html.erb (Duration: 9.8ms | Allocations: 6482)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 85)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 85)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 85)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 272)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 272)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 272)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 176)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 176)
+Completed 200 OK in 1448ms (Views: 1441.5ms | ActiveRecord: 0.0ms | Allocations: 1521183)
+Completed 200 OK in 1446ms (Views: 1439.9ms | ActiveRecord: 0.0ms | Allocations: 1521063)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 176)
+Completed 200 OK in 1448ms (Views: 1442.0ms | ActiveRecord: 0.0ms | Allocations: 1521183)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/contact" for 127.0.0.1 at 2021-01-25 00:43:37 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.7ms | Allocations: 94)
+  Rendered layouts/_rails_default.html.erb (Duration: 14.4ms | Allocations: 6433)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 97)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 7342)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
